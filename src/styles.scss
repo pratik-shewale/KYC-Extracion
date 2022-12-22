@@ -16,3 +16,30 @@
   position: relative;
   min-height: 85vh;
 }
+
+.footer-background {
+  background-color: #444;
+  color: #fff;
+}
+
+.nav-height {
+  min-height: 75px;
+}
+
+.text-center {
+  justify-content: center;
+}
+
+.page-container {
+  position: relative;
+  min-height: 75vh;
+}
+
+.text-right {
+  justify-content: right;
+}
+
+.href-link {
+  text-decoration: none;
+  color: #000;
+}
