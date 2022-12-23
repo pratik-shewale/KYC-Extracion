@@ -7,8 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AuthModule } from './auth/auth.module';
-import { HomeComponent } from './home/home/home.component';
-
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, AuthModule],
